@@ -7,7 +7,9 @@ function About() {
       <div className="about-content">
         <div className="assistant">
           <video
-            src={process.env.PUBLIC_URL + "/image/video.MP4"}
+            src={
+              "https://drive.google.com/uc?export=download&id=1nf68FIqmbFksBu-eRAZxYXNPcsRgUffM"
+            }
             controls
             type="video/mp4"
           />

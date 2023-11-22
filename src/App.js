@@ -66,6 +66,7 @@ function App() {
       </nav>
 
       <Routes>
+        <Route path="/" element={<About />} />
         <Route path="/projects" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
